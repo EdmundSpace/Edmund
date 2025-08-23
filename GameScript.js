@@ -12,7 +12,7 @@ const parentElement = document.getElementByTagName('container');
   for (let i = 0; i < 9; i++) {
     for (let j = 0; j < 10; j++) {
       const newElement = document.createElement('img');
-      newElement.src = '/images/HomeFloor.png';
+      newElement.src = '/images/homefloor.png';
       parentElement.appendChild(newElement); 
     }
   }
