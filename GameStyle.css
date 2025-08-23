@@ -1,0 +1,17 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  gap: 0px 0px;
+  width: 480px
+  height: 432px
+  border: thick ridge grey;
+  box-sizing: border-box;
+  
+}
