@@ -12,7 +12,7 @@ const parentElement = document.querySelector(".container");
   for (let i = 0; i < 9; i++) {
     for (let j = 0; j < 10; j++) {
       const newElement = document.createElement('img');
-      newElement.src = '/game/images/homefloor.gif';
+      newElement.src = '/Edmund/images/homefloor.gif';
       parentElement.appendChild(newElement); 
     }
   }
