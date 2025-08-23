@@ -22,3 +22,4 @@ const parentElement = document.getElementByTagName('container');
   parentElement.appendChild(newElement); 
 
 } 
+AddTiles();
