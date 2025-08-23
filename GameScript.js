@@ -7,12 +7,12 @@ setInterval(function () {
 }, 1000);
 
 function AddTiles() {
-const parentElement = document.getElementsByTagName('container');
+const parentElement = document.querySelector(".container");
 
   for (let i = 0; i < 9; i++) {
     for (let j = 0; j < 10; j++) {
       const newElement = document.createElement('img');
-      newElement.src = '/Edmund/images/homefloor.png';
+      newElement.src = '/game/images/homefloor.gif';
       parentElement.appendChild(newElement); 
     }
   }
